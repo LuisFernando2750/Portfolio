@@ -138,6 +138,7 @@ header ul li a {
     font-size: clamp(3rem, 5vw, 5rem);
     /* clamp (valor-mínimo, valor-preferido, valor-máximo */
     margin-bottom: 1rem;
+    max-width: 20ch;
 }
 
 h2 span {
@@ -247,10 +248,73 @@ h2 span {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     border-radius: 1.5rem;
 }
 
+.contato-section form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: var(--bg-secundario);
+    padding: .875rem 1rem;
+    /* padding: top/bottom left/right */
+    border-radius: 1.5rem;
+}
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    margin-top: .25rem;
+    background-color: var(--bg-primario);
+}
+
+form label {
+    font-size: 1rem;
+    color: var(--cor-texto-secundario);
+}
+
+form textarea,
+form input,
+form button {
+    border-radius: 1.25rem;
+    border: none;
+    padding: .625rem 1rem;
+    font-size: 1rem;
+
+}
+
+form input,
+form button {
+    height: 3rem;
+}
+
+form button {
+    color: var(--cor-texto-button-primario);
+    background-color: var(--bg-button-primario);
+}
+
+footer{
+    padding: 1rem;
+    background-color: var(--bg-secundario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.25rem;
+    
+}
+
+footer ul{
+    display:flex;
+    align-items: center;
+     gap: 1rem; 
+}
+
+ footer a {
+    display: flex;
+ }
 
 
 /* provisório */
