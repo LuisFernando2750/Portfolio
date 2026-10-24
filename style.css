@@ -44,7 +44,7 @@
 
 }
 
-*:focus-visible{
+*:focus-visible {
     outline: 0.125rem solid red;
     outline-offset: 0.2rem;
 }
@@ -67,8 +67,8 @@ p {
     color: var(--cor-texto-primario)
 }
 
-header ul li a:hover{
-    color:#1c1c1c;
+header ul li a:hover {
+    color: #1c1c1c;
     transition: all 0.2s ease-in-out;
 }
 
@@ -144,6 +144,11 @@ header ul li a {
     background-color: var(--bg-button-primario);
     color: var(--cor-texto-button-primario);
 
+}
+
+.hero-section ul li a:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #023568;
 }
 
 .hero-section ul li:last-child a {
@@ -255,10 +260,10 @@ h2 span {
     background-image: url(./img/capa-zoo.jpg);
 }
 
-.projetos-section ul li a:hover{
+.projetos-section ul li a:hover {
     transition: all 0.2s ease-in-out;
-    background-color:#023568;
-    
+    background-color: #023568;
+
 }
 
 
@@ -356,9 +361,9 @@ form button {
     cursor: pointer;
 }
 
-form button:hover{
+form button:hover {
     transition: all 0.2s ease-in-out;
-    background-color:#023568;
+    background-color: #023568;
 }
 
 footer {
